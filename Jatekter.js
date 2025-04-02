@@ -42,7 +42,7 @@ export default class Jatekter {
             let gyoztes = this.gyozelemEllenorzes()
             console.log(gyoztes)
             if (gyoztes != "-") {
-                alert(`A győztes: ${gyoztes}`)
+                console.log(`A győztes: ${gyoztes}`)
             }
         })
     }
